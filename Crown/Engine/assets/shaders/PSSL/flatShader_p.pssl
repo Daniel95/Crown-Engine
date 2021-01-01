@@ -1,0 +1,9 @@
+﻿/* SIE CONFIDENTIAL
+PlayStation(R)4 Programmer Tool Runtime Library Release 07.008.001
+* Copyright (C) 2013 Sony Interactive Entertainment Inc.
+*/
+
+float4 main( /*VS_OUTPUT In*/ ) : S_TARGET_OUTPUT
+{
+	return float4(0, 0, 0, 0);
+}

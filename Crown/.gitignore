@@ -1,0 +1,31 @@
+#Muse ignore
+
+# Binaries
+**/bin/
+!vendor/bin/premake/
+bin-int/
+build/
+Build/
+obj/
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+#Files
+#All files with these extension will be ignored for server operations
+*.bin
+*.log
+*.pdb
+*.tlog
+*.ipdb
+*.iobj
+*.idb
+*.pch
+*.ilk
+*.json
+*.vcxproj.user
+imgui.ini

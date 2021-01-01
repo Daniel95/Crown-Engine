@@ -1,0 +1,21 @@
+﻿/* SIE CONFIDENTIAL
+PlayStation(R)4 Programmer Tool Runtime Library Release 07.008.001
+* Copyright (C) 2013 Sony Interactive Entertainment Inc.
+*/
+
+struct VS_OUTPUT
+{
+	float4 Position : S_POSITION;
+};
+
+struct VS_INPUT
+{
+    float4 Position : POSITION;
+};
+
+VS_OUTPUT main( VS_INPUT input )
+{
+	input;
+	VS_OUTPUT Output = (VS_OUTPUT)0;
+	return Output;    
+}
