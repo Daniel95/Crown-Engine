@@ -12,6 +12,8 @@ Features:
 
 Data oriented ecs.
 GLTF scene loading
-Ps4 renderer (Deprecated due to corona, also removed ps4 related code due to licensing issues)
 Animations
 Unit Test
+Visual leak detector implemented.
+OpenGL renderer
+Ps4 renderer (Deprecated due to corona, also removed ps4 related code due to licensing issues)
